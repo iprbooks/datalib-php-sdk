@@ -1,0 +1,36 @@
+{
+  "name": "datalib/datalib-php-sdk",
+  "description": "DataLIB PHP SDK",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Cherkasov",
+      "email": "andrey.cherkasov93@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Datalib\\Sdk\\": "src/",
+      "Datalib\\Sdk\\Core\\": "src/core/",
+      "Datalib\\Sdk\\Models\\": "src/models/",
+      "Datalib\\Sdk\\Collections\\Publication\\": "src/collections/publication",
+      "Datalib\\Sdk\\Collections\\Publication\\Filter\\": "src/collections/publication/filter",
+      "Datalib\\Sdk\\Collections\\Publication\\Filter\\Autocomplete\\": "src/collections/publication/filter/autocomplete"
+    }
+  },
+  "require": {
+    "php": ">=7.1.*",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "secure-http": false,
+    "sort-packages": true,
+    "platform": {
+      "php": "7.0"
+    }
+  }
+}

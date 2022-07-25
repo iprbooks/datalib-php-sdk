@@ -11,42 +11,42 @@ class BooksCollection extends Collection
 {
 
     /*
-     * Фильтрация по заглавию
+     * Фильтрация по названию
      */
     const TITLE = 'title';
 
     /*
-     * Фильтрация по категории (id)
+     * Фильтрация по категории (id, int)
      */
     const CATEGORY = 'category_id';
 
     /*
-     * Фильтр смежные категории (список id)
+     * Фильтр смежные категории (id, int|array)
      */
     const RELATED_CATEGORIES = 'related_categories';
 
     /*
-     * Фильтрация по авторам (id)
+     * Фильтрация по авторам (id, int)
      */
     const AUTHOR = 'author';
 
     /*
-     * Фильтрация издательству (id)
+     * Фильтрация издательству (id, int)
      */
     const PUBLISHER = 'publisher';
 
     /*
-     * Фильтр по дисциплинам (id)
+     * Фильтр по дисциплинам (id, int)
      */
     const DISCIPLINES = 'disciplines';
 
     /*
-     * Ограничение года издания слева
+     * Ограничение года издания слева (int)
      */
     const YEAR_LEFT = 'year_from';
 
     /*
-     * Ограничение года издания слева
+     * Ограничение года издания слева (int)
      */
     const YEAR_RIGHT = 'year_before';
 

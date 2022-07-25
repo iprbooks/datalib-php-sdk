@@ -50,13 +50,15 @@ final class Book extends Model
 
     /**
      * Возрващает id книги
-     * @return mixed
      */
     public function getId()
     {
         return $this->getValue('id');
     }
 
+    /**
+     * Возрващает тип издания
+     */
     public function getPublicationType()
     {
         return $this->getValue('publication_type');
@@ -64,7 +66,6 @@ final class Book extends Model
 
     /**
      * Возвращает название книги
-     * @return mixed
      */
     public function getTitle()
     {
@@ -72,8 +73,7 @@ final class Book extends Model
     }
 
     /**
-     * Возвращает дополнительное название книги
-     * @return mixed
+     * Возвращает доп название книги
      */
     public function getTitleAdditional()
     {
@@ -82,7 +82,6 @@ final class Book extends Model
 
     /**
      * Возвращает издательство
-     * @return mixed
      */
     public function getPublishers()
     {
@@ -90,8 +89,7 @@ final class Book extends Model
     }
 
     /**
-     * Возвращает список авторов
-     * @return mixed
+     * Возвращает авторов
      */
     public function getAuthors()
     {
@@ -99,7 +97,7 @@ final class Book extends Model
     }
 
     /**
-     * @return mixed
+     *
      */
     public function getLiability()
     {
@@ -108,47 +106,63 @@ final class Book extends Model
 
     /**
      * Возвращает год издания
-     * @return mixed
      */
     public function getYear()
     {
         return $this->getValue('year');
     }
 
+    /**
+     * Возвращает ISBN
+     */
     public function getIsbn()
     {
         return $this->getValue('isbn');
     }
 
+    /**
+     * Возвращает DOI
+     */
     public function getDoi()
     {
         return $this->getValue('doi');
     }
 
+    /*
+     *
+     */
     public function getMark()
     {
         return $this->getValue('mark');
     }
 
     /**
-     * Возвращает описание
-     * @return mixed
+     * Возвращает описание книги
      */
     public function getDescription()
     {
         return $this->getValue('description');
     }
 
+    /**
+     * Возвращает библиографическую запись
+     */
     public function getBibliography()
     {
         return $this->getValue('bibliography');
     }
 
+    /**
+     * Возвращает кол-во просмотров
+     */
     public function getViewsCount()
     {
         return $this->getValue('views');
     }
 
+    /**
+     * Возвращает рейтинг книги
+     */
     public function getRating()
     {
         return $this->getValue('rating');
@@ -156,13 +170,15 @@ final class Book extends Model
 
     /**
      * Возвращает ссылку на обложку книги
-     * @return mixed
      */
     public function getImage()
     {
         return $this->getValue('cover');
     }
 
+    /**
+     * Возвращает тип издания
+     */
     public function getPublicationTypeText()
     {
         return $this->getValue('publicationType');

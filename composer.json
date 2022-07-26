@@ -14,6 +14,7 @@
       "Datalib\\Sdk\\": "src/",
       "Datalib\\Sdk\\Core\\": "src/core/",
       "Datalib\\Sdk\\Models\\": "src/models/",
+      "Datalib\\Sdk\\Managers\\": "src/managers",
       "Datalib\\Sdk\\Collections\\Publication\\": "src/collections/publication",
       "Datalib\\Sdk\\Collections\\Publication\\Filter\\": "src/collections/publication/filter",
       "Datalib\\Sdk\\Collections\\Publication\\Filter\\Autocomplete\\": "src/collections/publication/filter/autocomplete"

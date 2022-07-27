@@ -35,7 +35,7 @@ git clone git@github.com:iprbooks/datalib-php-sdk.git
 ```
 
 <a name="2"><h1>Инициализация клиента Api</h1></a>
-Для инициализации клиента необходим <b>jwt-token</b>. Получить его можно связавшись с техподдержкой [office@datalib.ru](mailto:office@datalib.ru)
+Для инициализации клиента необходим <b>jwt-token</b>. Получить его можно связавшись с техподдержкой [support@iprmedia.ru](mailto:support@iprmedia.ru)
 
 #### Пример
 ```php
